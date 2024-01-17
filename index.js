@@ -45,6 +45,12 @@ const questions = [
         message: 'What is your email address',
         name: 'email',
     },
+    {
+        type: 'list',
+        message: 'Please select a license type if applicable',
+        name: 'license',
+        choices: ['none','MIT','APACHE','Eclipse'],
+    },
  ];
 
 // TODO: Create a function to write README file
